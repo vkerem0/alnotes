@@ -1,9 +1,0 @@
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/AlNotes.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/edit_cache.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/rebuild_cache.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/list_install_components.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/local.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/install/strip.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/AlNotes_autogen_timestamp_deps.dir
-/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/AlNotes_autogen.dir
