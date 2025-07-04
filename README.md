@@ -1,6 +1,7 @@
 ## Al Notes
 Take your notes more sigma way! 
 <hr>
+<img src="alnotes_ui_mac.png" alt="Screenshot of Al Notes (Mac)">
 <img src="alnotes_ui.png" alt="Screenshot of Al Notes">
 <i>Screenshot</i>
 

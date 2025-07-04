@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/AlNotes_autogen",
+	"CMAKE_BINARY_DIR" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/aln/alnotes",
+	"CMAKE_SOURCE_DIR" : "/home/aln/alnotes",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/AlNotes_autogen/include",
+	"INPUTS" : [ "/home/aln/alnotes/folder_89347.png", "/home/aln/alnotes/icoo.png" ],
+	"LOCK_FILE" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/AlNotes_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "/home/aln/Qt/6.9.1/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/AlNotes_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/aln/alnotes/icons.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

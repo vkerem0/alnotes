@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-932295faad143795976d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AlNotes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AlNotes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlNotes-Debug-b7333f3dd5c75902e2bc.json",
+					"name" : "AlNotes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlNotes_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlNotes_autogen-Debug-2079319b5aae12e9dfa3.json",
+					"name" : "AlNotes_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AlNotes_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AlNotes_autogen_timestamp_deps-Debug-17bceda7be78afb223f9.json",
+					"name" : "AlNotes_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aln/alnotes/build/Desktop_Qt_6_9_1-Debug",
+		"source" : "/home/aln/alnotes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
