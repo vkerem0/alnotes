@@ -12,4 +12,4 @@ You can use it for **commercial** purposes.<br>
 For more details, please read the **LICENCE** file<br>
 
 <img src="icoo.png" width='200' alt="devs">
-made with Qt by Kerem & Alnes
+Made with Qt by Kerem & Alnes
