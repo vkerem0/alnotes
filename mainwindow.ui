@@ -55,7 +55,11 @@
       <item>
        <widget class="QTreeView" name="treeView">
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">QTreeView{
+
+background-color: rgb(50, 50, 50);
+border:none;
+}</string>
         </property>
         <property name="indentation">
          <number>20</number>
@@ -87,41 +91,9 @@
      </layout>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout" stretch="0,4,33">
-      <item>
-       <spacer name="verticalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Orientation::Vertical</enum>
-        </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Policy::Maximum</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>10</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="4,33">
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,0">
-        <item>
-         <spacer name="horizontalSpacer">
-          <property name="orientation">
-           <enum>Qt::Orientation::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Policy::Maximum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>500</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
         <item>
          <widget class="QToolButton" name="toolButton">
           <property name="sizePolicy">
@@ -131,7 +103,23 @@
            </sizepolicy>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">QToolButton{
+
+background-color: rgb(50, 50,50);
+border:none;
+
+}
+
+QToolButton:hover{
+background-color: rgb(55, 55, 55);
+}
+
+QToolButton:pressed {
+
+background-color: rgb(60, 60, 60);
+
+}
+</string>
           </property>
           <property name="text">
            <string>...</string>
@@ -141,11 +129,27 @@
           </property>
           <property name="iconSize">
            <size>
-            <width>40</width>
-            <height>40</height>
+            <width>24</width>
+            <height>24</height>
            </size>
           </property>
          </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Ignored</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
         </item>
         <item>
          <widget class="QToolButton" name="toolButton_4">
@@ -156,7 +160,23 @@
            </sizepolicy>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">QToolButton{
+
+background-color: rgb(50, 50,50);
+border:none;
+
+}
+
+QToolButton:hover{
+background-color: rgb(55, 55, 55);
+}
+
+QToolButton:pressed {
+
+background-color: rgb(60, 60, 60);
+
+}
+</string>
           </property>
           <property name="text">
            <string>...</string>
@@ -173,6 +193,22 @@
          </widget>
         </item>
         <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Ignored</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
          <widget class="QToolButton" name="toolButton_5">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
@@ -181,7 +217,23 @@
            </sizepolicy>
           </property>
           <property name="styleSheet">
-           <string notr="true"/>
+           <string notr="true">QToolButton{
+
+background-color: rgb(50, 50,50);
+border:none;
+
+}
+
+QToolButton:hover{
+background-color: rgb(55, 55, 55);
+}
+
+QToolButton:pressed {
+
+background-color: rgb(60, 60, 60);
+
+}
+</string>
           </property>
           <property name="text">
            <string>...</string>
@@ -191,27 +243,11 @@
           </property>
           <property name="iconSize">
            <size>
-            <width>40</width>
-            <height>40</height>
+            <width>24</width>
+            <height>24</height>
            </size>
           </property>
          </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Orientation::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Policy::Maximum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>10</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
         </item>
        </layout>
       </item>
@@ -226,7 +262,11 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">QTextEdit{
+
+background-color: rgb(45, 45, 45);
+
+}</string>
         </property>
         <property name="placeholderText">
          <string>TS PMO GNG 🥀🥀🥀🥀</string>
@@ -243,7 +283,7 @@
      <x>0</x>
      <y>0</y>
      <width>977</width>
-     <height>20</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>
