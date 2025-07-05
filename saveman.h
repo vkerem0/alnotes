@@ -12,7 +12,7 @@ class Saveman : public QObject
     Q_OBJECT
 public:
     explicit Saveman(QObject *parent = nullptr);
-    QString appDirPath = QDir::homePath() + "/.pipinotes";
+    QString appDirPath = QDir::homePath() + "/.alnotes";
     QFileSystemModel *model = new QFileSystemModel(this);
     QString cpth;
 
