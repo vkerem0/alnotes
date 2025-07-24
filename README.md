@@ -1,5 +1,5 @@
-## Al Notes
-Take your notes more ez way! 
+## AlNotes
+Take your notes. 
 <hr>
 <img src="alnotes_ui_mac.png" alt="Screenshot of Al Notes (Mac)">
 <img src="alnotes_ui.png" alt="Screenshot of Al Notes">
