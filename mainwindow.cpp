@@ -5,38 +5,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-// Global Dark Theme
-    QString UI_Style = R"(
-QTextEdit{
-
-background-color:rgb(50, 50, 50);
-
-}
-
-QTreeView{
-
-background-color: rgb(50, 50, 50);
-border:none;
-}
-QToolButton{
-
-background-color: rgb(50, 50,50);
-border:none;
-
-}
-
-QToolButton:hover{
-background-color: rgb(65, 65, 65);
-}
-
-QToolButton:pressed {
-
-background-color: rgb(31, 31, 31);
-
-}
-)";
-    qApp->setStyleSheet(UI_Style);
     ui->setupUi(this);
+
 
 
     QDir dir(appDirPath);
@@ -52,7 +22,6 @@ background-color: rgb(31, 31, 31);
 MainWindow::~MainWindow()
 {
     delete ui;
-
 }
 
 
@@ -84,6 +53,8 @@ void MainWindow::initTView()
 
     ui->treeView->setModel(model);
     ui->treeView->setRootIndex(model->index(appDirPath));
+
+    ui->treeView->setColumnWidth(0, 220);
 }
 
 

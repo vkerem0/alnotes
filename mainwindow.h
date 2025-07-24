@@ -50,7 +50,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QString currentFPath;
-    void saveFile();
     void searchWord();
 
 };
